@@ -43,7 +43,6 @@
 1.在项目的build.gradle的buildscript添加jitpack编译插件    
 
 ```java   
-![Uploading 选择release_052094.png . . .]
 buildscript {
     repositories {
         jcenter()
@@ -104,7 +103,7 @@ group='com.github.helen-x'
 比如,我的demo发布后的地址是: `com.github.helen-x:JitpackReleaseDemo:0.1`
 
 ## 步骤4: 使用我们的开源库
- 1.在build.gradle中加入Jitpack仓库
+1.在build.gradle中加入Jitpack仓库
 
 ```java   
 allprojects {
@@ -115,7 +114,8 @@ allprojects {
 	}
 ```  
 
-  2.使用我们开源库 
+2.使用我们开源库   
+  
 ```java    
 	dependencies {
 	        compile 'com.github.helen-x:JitpackReleaseDemo:0.1'
